@@ -1,6 +1,6 @@
 *---------------------------------------------------------------------*
 *    view related data declarations
-*   generation date: 07.05.2021 at 13:54:53
+*   generation date: 08.05.2021 at 13:32:32
 *   view maintenance generator version: #001407#
 *---------------------------------------------------------------------*
 *...processing: ZACO_OBJECTS_CU.................................*
