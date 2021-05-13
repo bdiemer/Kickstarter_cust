@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZCHAIN_IF_EQUIPMENT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>CHAININterface for Equipment</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_EQUIPMENT</CLSNAME>
+     <CMPNAME>DESCRIPTIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Langtexte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_EQUIPMENT</CLSNAME>
+     <CMPNAME>MANUFACTURERPARTNUMBER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Herstellerteilenummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_EQUIPMENT</CLSNAME>
+     <CMPNAME>PROCUREMENTNUMBER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beschaffungsbeleg</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_EQUIPMENT</CLSNAME>
+     <CMPNAME>SECONDARYKEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Equipment Id des Betreibers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_EQUIPMENT</CLSNAME>
+     <CMPNAME>SERIALNUMBER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Serialnummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_EQUIPMENT</CLSNAME>
+     <CMPNAME>SHORT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kurztext</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_EQUIPMENT</CLSNAME>
+     <CMPNAME>TIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Technische Information</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
