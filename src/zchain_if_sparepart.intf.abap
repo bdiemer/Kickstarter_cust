@@ -123,4 +123,9 @@ interface ZCHAIN_IF_SPAREPART
       !IO_OBJECT type ref to OBJECT optional
     changing
       !CT_JSON type ZACO_T_JSON_BODY .
+  methods IMAGEURL
+    importing
+      !IO_OBJECT type ref to OBJECT optional
+    changing
+      !CT_JSON type ZACO_T_JSON_BODY .
 endinterface.
