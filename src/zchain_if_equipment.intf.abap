@@ -52,4 +52,11 @@ interface ZCHAIN_IF_EQUIPMENT
       !IO_OBJECT type ref to OBJECT
     changing
       !CS_EQUI_UPD type ZCHAIN_S_EQUIPMENT_UPD_JSON .
+  methods BASELINE
+    importing
+      !IO_OBJECT type ref to OBJECT
+      !IV_DESCRIPTION type STRING
+      !IV_CONTEXT type STRING
+    changing
+      !CS_BASELINE type ZCHAIN_S_BASELINE_AIN .
 endinterface.
