@@ -64,4 +64,9 @@ interface ZCHAIN_IF_EQUIPMENT
       !IO_OBJECT type ref to OBJECT
     changing
       !CS_EQUI_UPD type ZCHAIN_S_EQUIPMENT_UPD_JSON .
+  methods BATCHNUMBER
+    importing
+      !IO_OBJECT type ref to OBJECT
+    changing
+      !CS_EQUI_UPD type ZCHAIN_S_EQUIPMENT_UPD_JSON .
 endinterface.
