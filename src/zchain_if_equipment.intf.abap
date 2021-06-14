@@ -59,4 +59,9 @@ interface ZCHAIN_IF_EQUIPMENT
       !IV_CONTEXT type STRING
     changing
       !CS_BASELINE type ZCHAIN_S_BASELINE_AIN .
+  methods SOURCEBPROLE
+    importing
+      !IO_OBJECT type ref to OBJECT
+    changing
+      !CS_EQUI_UPD type ZCHAIN_S_EQUIPMENT_UPD_JSON .
 endinterface.
