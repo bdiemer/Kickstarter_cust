@@ -129,4 +129,10 @@ interface ZCHAIN_IF_SPAREPART
       !IV_RFCDEST type RFCDEST
     changing
       !CT_JSON type ZACO_T_JSON_BODY .
+  methods ORIG_MANUFACTURER
+    importing
+      !IO_OBJECT type ref to OBJECT optional
+      !IV_RFCDEST type RFCDEST
+    changing
+      !CT_JSON type ZACO_T_JSON_BODY .
 endinterface.
