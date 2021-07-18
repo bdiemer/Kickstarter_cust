@@ -4,58 +4,58 @@ interface ZCHAIN_IF_BUSINESS_PARTNER
 
   class-methods COMPANYNAME
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
   class-methods COMPANYSHORTNAME
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
   class-methods STREETNAME
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
   class-methods CITYNAME
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
   class-methods POSTALCODE
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
   class-methods COUNTRYCODE
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
   class-methods REGIONCODE
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
   class-methods PHONENUMBER
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
   class-methods WEBURL
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
   class-methods ROLES
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
       !IT_ROLES type ZCHAIN_TT_ROLE_CODES_JSON
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
   class-methods MNEMONICS
     importing
-      !IO_BUPA_ERP type ref to ZCHAIN_CL_BUPA_ERP_ECC
+      !IO_BUPA_ERP type ref to OBJECT
     changing
       !CS_EXT_ORG_JSON type ZCHAIN_S_EXTERNAL_ORG_JSON .
 endinterface.
