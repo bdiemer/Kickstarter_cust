@@ -42,11 +42,6 @@ interface ZCHAIN_IF_SPAREPART
       !IO_OBJECT type ref to OBJECT optional
     changing
       !CT_JSON type ZACO_T_JSON_BODY .
-  methods LONGDESCRIPTION
-    importing
-      !IO_OBJECT type ref to OBJECT optional
-    changing
-      !CT_JSON type ZACO_T_JSON_BODY .
   methods SPAREPARTNAME
     importing
       !IO_OBJECT type ref to OBJECT optional
@@ -56,7 +51,7 @@ interface ZCHAIN_IF_SPAREPART
     importing
       !IO_OBJECT type ref to OBJECT optional
     changing
-      !CT_JSON type ZACO_T_JSON_BODY .
+      !CT_DESCRIPTIONS type ZCHAIN_TT_DESCRIPTION_JSON .
   methods SUBCLASS
     importing
       !IO_OBJECT type ref to OBJECT optional
