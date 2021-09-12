@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZCHAIN_IF_DOCUMENTS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>CHAIN Interface for Document Upload</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_DOCUMENTS</CLSNAME>
+     <CMPNAME>CATEGORY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ermittle Kategorie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_DOCUMENTS</CLSNAME>
+     <CMPNAME>CONFIDENTIALITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vertraulichkeit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_DOCUMENTS</CLSNAME>
+     <CMPNAME>DATASENSITIVITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datensensibilität</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCHAIN_IF_DOCUMENTS</CLSNAME>
+     <CMPNAME>PHASECODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ermittle Phasen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
