@@ -81,4 +81,9 @@ interface ZCHAIN_IF_EQUIPMENT
       !IV_RFCDEST type RFCDEST
     changing
       !CS_EQUI_UPD type ZCHAIN_S_EQUIPMENT_UPD_JSON .
+  methods OPERATORID
+    importing
+      !IO_OBJECT type ref to OBJECT
+    changing
+      !CS_EQUI_UPD type ZCHAIN_S_EQUIPMENT_UPD_JSON .
 endinterface.
