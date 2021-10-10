@@ -97,4 +97,9 @@ interface ZCHAIN_IF_LOCATION
       !IO_FUNC_LOC type ref to ZCHAIN_CL_FUNC_LOC_ERP_ECC
     changing
       !CS_INSLOC_UPD type ZCHAIN_S_INSTLOC_PUT_JSON .
+  class-methods NAME
+    importing
+      !IO_FUNC_LOC type ref to ZCHAIN_CL_FUNC_LOC_ERP_ECC
+    changing
+      !CS_INSLOC_UPD type ZCHAIN_S_INSTLOC_PUT_JSON .
 endinterface.
