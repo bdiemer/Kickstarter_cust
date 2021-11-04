@@ -64,5 +64,6 @@ interface ZCHAIN_IF_BUSINESS_PARTNER
   class-methods ADD_EXTERNAL_ID
     importing
       !IO_BUPA_ERP type ref to OBJECT
-      !IS_IHPA type IHPA .
+      !IS_IHPA type IHPA
+      !IV_RFCDEST type RFCDEST .
 endinterface.
